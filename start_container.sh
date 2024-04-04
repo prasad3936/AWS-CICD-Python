@@ -2,7 +2,8 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull praszp246/monitor-flask-app:latest
 
 # Run the Docker image as a container
-echo
+
+docker -d -p 5000:5000 praszp246/monitor-flask-app:latest .
