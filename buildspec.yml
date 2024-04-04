@@ -28,5 +28,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: ../simple-python-app
-build
+  base-directory: .
